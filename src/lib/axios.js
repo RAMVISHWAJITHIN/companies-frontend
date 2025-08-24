@@ -1,6 +1,7 @@
 import axios from "axios";
 
 export const axiosInstance = axios.create({
-  baseURL: "http://localhost:5001/api/companies",
+  baseURL: "https://companies-backend-omega.vercel.app/api/companies",
   withCredentials: true,
 });
+
